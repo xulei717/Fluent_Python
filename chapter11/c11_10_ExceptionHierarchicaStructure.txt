@@ -1,0 +1,23 @@
+BaseException
+  SystemExit
+  KeyboardInterrupt
+  GeneratorExit
+  Exception
+    StopIteration
+    ArithmeticError
+      FloatingPointError
+      OverflowError
+      ZeroDivisionError
+    AssertionError
+    AttributeError
+    BufferError
+    EOFError
+    ImportError
+    LookupError
+      IndexError
+      KeyError
+    MemoryError
+...etc.
+
+完整的层次结构参见Python标准库文档“5.4 Exception hierarchy”
+
